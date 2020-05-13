@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<form>
+	<fields name="fieldparams">
+		<fieldset name="fieldparams">
+
+
+
+			<field type="spacer" 
+				name="jt_cf_images_hr" 
+				hr="false" 
+				class="text"
+				label="JT_CF_IMAGES_HR"
+			/>
+
+			<field name="jt_cf_images_form_layout" 
+				type="list" 
+				default="repeatable-table" 
+				class="switcher switcher-success btn-group" 
+				label="JT_CF_IMAGES_LAYOUT" 
+			>
+				<option value="repeatable">repeatable</option>
+				<option value="repeatable-table">repeatable-table</option>
+			</field>
+
+			<field name="jt_cf_images_wrapper" 
+				type="radio" 
+				default="0" 
+				class="switcher switcher-success btn-group" 
+				label="JT_CF_IMAGES_WRAPPER" 
+				>
+				<option value="0">JNO</option>
+				<option value="1">JYES</option>
+			</field>
+
+			<field name="jt_cf_images_wrapper_class"
+				type="text"
+				label="JT_CF_IMAGES_WRAPPER_CLASS"
+				default="img_wrapper"
+				showon="jt_cf_images_wrapper:1" 
+			/>
+
+			<field name="jt_cf_images_images_class"
+				type="text"
+				label="JT_CF_IMAGES_IMAGES_CLASS"
+				default="img-thumbnail"
+			/>
+
+
+		</fieldset>
+	</fields>
+</form>

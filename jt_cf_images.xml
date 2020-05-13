@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<extension type="plugin" version="3.7.0" group="fields" method="upgrade">
+	<name>jt_cf_images</name>
+	<creationDate>13-may-2020</creationDate>
+	<author>jtotal</author>
+	<authorEmail>support@jtotal.org</authorEmail>
+	<authorUrl>https://jtotal.org</authorUrl>
+	<copyright>Copyright © 2020 - All rights reserved.</copyright>
+	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
+	<version>1.0.7</version>
+	<description><![CDATA[ JT CustomFields | Images 
+	<a class="jtversion badge badge-success">1.0.7</a>
+	]]></description>
+	<files>
+		<filename plugin="jt_cf_images">jt_cf_images.php</filename>
+		<filename>changelog.txt</filename>
+		<filename>license.txt</filename>
+		<folder>params</folder>
+		<folder>tmpl</folder>
+        <folder>language</folder>
+	</files>
+	<languages folder="language">
+		<language tag="en-GB">en-GB.plg_fields_jt_cf_images.ini</language>
+		<language tag="en-GB">en-GB.plg_fields_jt_cf_images.sys.ini</language>
+	</languages>
+	<config>
+		<fields name="params">
+			<fieldset name="basic">
+
+
+			</fieldset>
+		</fields>
+	</config>
+    <updateservers>
+        <server type="extension" priority="1" name="jt_cf_images">https://users.jtotal.org/SOFT/UPDATES/PLUGINS/CF/jt_cf_images-update.xml</server>
+    </updateservers>
+</extension>

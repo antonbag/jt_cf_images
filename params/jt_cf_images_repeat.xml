@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<form>
+	<fieldset hidden="true" name="jt_cf_images_form" repeat="true" multiple="true">
+		
+		<field name="src"
+			label="JT_CF_IMAGES_IMAGE"
+			size="30"
+			type="media" 
+			required="true"
+		/>
+		<field name="alt"
+			label="JT_CF_IMAGES_ALT"
+			type="text" 
+			default="jt image"
+		/>
+		
+		<field name="class"
+			label="JT_CF_IMAGES_CLASS"
+			default="img-fluid"
+			class=""
+			type="text"/>
+
+		<field name="url_on" 
+				type="radio" 
+				default="0" 
+				class="switcher switcher-success btn-group" 
+				label="JT_CF_IMAGES_URL_ON" 
+				>
+				<option value="0">JNO</option>
+				<option value="1">JYES</option>
+		</field>
+
+		<field name="url"
+			label="JT_CF_IMAGES_URL"
+			size="30"
+			type="url" 
+			showon="url_on:1"
+		/>
+
+		<field name="target" 
+				type="list" 
+				default="modal" 
+				class="switcher switcher-success btn-group" 
+				label="JT_CF_IMAGES_URL_TARGET" 
+				showon="url_on:1"
+		>
+			<option value="modal">Modal</option>
+            <option value="_self">Self</option>
+            <option value="_blank">Blank</option>
+            <option value="_parent">Parent</option>
+            <option value="_top">Top</option>
+			
+		</field>
+
+
+
+
+
+	</fieldset>
+</form>
