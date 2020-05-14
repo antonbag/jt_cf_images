@@ -48,14 +48,10 @@ class PlgFieldsJT_CF_images extends FieldsPlugin
 
 		$fieldNode->setAttribute('type', 'subform');
 		$fieldNode->setAttribute('multiple', 'true');
-		$fieldNode->setAttribute('label', JText::_('JT_CF_IMAGES_TITLE'));
+		//$fieldNode->setAttribute('label', JText::_('JT_CF_IMAGES_TITLE'));
 		$fieldNode->setAttribute('layout', 'joomla.form.field.subform.'.$field->fieldparams->get('jt_cf_images_form_layout','repeatable-table'));
 
-
-		
-
-
-
+	
 		// Build the form source
 		$fieldsXml = new SimpleXMLElement('<form/>');
 		//$fields    = $fieldsXml->addChild('fields');
