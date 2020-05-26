@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<form>
+	<fieldset hidden="true" name="jt_cf_images_form" repeat="true" multiple="true">
+		
+		<field 
+			name="jtfolder" 
+			type="folderlist" 
+			default="" 
+			label="JT_CF_IMAGES_FOLDER" 
+			directory="images" 
+			filter="" 
+			exclude="" 
+			stripext="" 
+			recursive="true" 
+			hide_default="true"
+		/>
+		<field 
+			name="class"
+			label="JT_CF_IMAGES_CLASS"
+			type="text" 
+			default="jt image"
+		/>
+		<field 
+			name="alt"
+			label="JT_CF_IMAGES_ALT"
+			type="text" 
+			default="jt image"
+		/>
+
+
+
+	</fieldset>
+</form>

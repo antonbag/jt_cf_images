@@ -1,27 +1,31 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <extension type="plugin" version="3.7.0" group="fields" method="upgrade">
-	<name>Fields - jt images</name>
-	<creationDate>14-may-2020</creationDate>
+	<name>Fields - JT images</name>
+	<creationDate>26-may-2020</creationDate>
 	<author>jtotal</author>
 	<authorEmail>support@jtotal.org</authorEmail>
 	<authorUrl>https://jtotal.org</authorUrl>
 	<copyright>Copyright © 2020 - All rights reserved.</copyright>
 	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
-	<version>1.0.9</version>
+	<version>1.0.15</version>
 	<description><![CDATA[ JT CustomFields | Images 
-	<a class="jtversion badge badge-success">1.0.9</a>
+	<a class="jtversion badge badge-info">1.0.15</a>
 	]]></description>
+    <scriptfile>script.install.php</scriptfile>
 	<files>
-		<filename plugin="jt_cf_images">jt_cf_images.php</filename>
+		<filename plugin="jtcfimages">jtcfimages.php</filename>
 		<filename>changelog.txt</filename>
 		<filename>license.txt</filename>
+		<filename>script.install.php</filename>
+		<filename>script.install.helper.php</filename>
 		<folder>params</folder>
 		<folder>tmpl</folder>
         <folder>language</folder>
+        
 	</files>
 	<languages folder="language">
-		<language tag="en-GB">en-GB.plg_fields_jt_cf_images.ini</language>
-		<language tag="en-GB">en-GB.plg_fields_jt_cf_images.sys.ini</language>
+		<language tag="en-GB">en-GB.plg_fields_jtcfimages.ini</language>
+		<language tag="en-GB">en-GB.plg_fields_jtcfimages.sys.ini</language>
 	</languages>
 	<config>
 		<fields name="params">

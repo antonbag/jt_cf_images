@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <form>
-	<fields name="fieldparams">
+	<fields name="fieldparams" addfieldpath="/plugins/system/jtframework/fields">
 		<fieldset name="fieldparams">
-
-
 
 			<field type="spacer" 
 				name="jt_cf_images_hr" 
@@ -21,6 +19,18 @@
 				<option value="repeatable">repeatable</option>
 				<option value="repeatable-table">repeatable-table</option>
 			</field>
+
+
+			<field name="jt_cf_images_mode" 
+				type="radio" 
+				default="image" 
+				class="switcher switcher-success btn-group" 
+				label="JT_CF_IMAGES_MODE" 
+				>
+				<option value="image">JT_CF_IMAGES_MODE_IMAGES</option>
+				<option value="folder">JT_CF_IMAGES_MODE_FOLDER</option>
+			</field>
+
 
 			<field name="jt_cf_images_wrapper" 
 				type="radio" 
@@ -43,6 +53,13 @@
 				type="text"
 				label="JT_CF_IMAGES_IMAGES_CLASS"
 				default="img-thumbnail"
+			/>
+
+						<field name="jtlicense" 
+				type="jtlicensecheck" 
+				default="" 
+				class="switcher switcher-success btn-group" 
+				label="JT_KEY" 
 			/>
 
 
