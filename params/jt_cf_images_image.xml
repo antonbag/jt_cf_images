@@ -21,9 +21,9 @@
 			type="text"/>
 
 		<field name="url_on" 
-				type="radio" 
+				type="list" 
 				default="0" 
-				class="switcher switcher-success btn-group" 
+				class="switcher switcher-success btn-group btn-group-yesno" 
 				label="JT_CF_IMAGES_URL_ON" 
 				>
 				<option value="0">JNO</option>

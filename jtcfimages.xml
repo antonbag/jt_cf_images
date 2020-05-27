@@ -7,9 +7,9 @@
 	<authorUrl>https://jtotal.org</authorUrl>
 	<copyright>Copyright © 2020 - All rights reserved.</copyright>
 	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
-	<version>1.0.40</version>
+	<version>1.0.41</version>
 	<description><![CDATA[ JT CustomFields | Images 
-	<a class="jtversion badge badge-info">1.0.40</a>
+	<a class="jtversion badge badge-info">1.0.41</a>
 	]]></description>
     <scriptfile>script.install.php</scriptfile>
 	<files>
