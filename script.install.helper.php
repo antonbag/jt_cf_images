@@ -302,12 +302,15 @@ class PlgFieldsJtcfImagesInstallerScriptHelper
 	{
 		JFactory::getApplication()->enqueueMessage(
 			JText::sprintf(
-				JText::_($this->install_type == 'update' ? 'JT_THE_EXTENSION_HAS_BEEN_INSTALLED_SUCCESSFULLY' : 'JT_THE_EXTENSION_HAS_BEEN_UPDATED_SUCCESSFULLY'),
-				'<strong>' . JText::_($this->name) . '</strong>',
+				'<strong>JTOTAL ' . JText::_($this->extname) . '</strong>'.
 				'<strong>' . $this->getVersion() . '</strong>',
 				$this->getFullType()
 			)
 		);
+		JFactory::getApplication()->enqueueMessage(
+			JText::_($this->install_type == 'update' ? 'JT_EXTENSION_UPDATED' : 'JT_EXTENSION_INSTALLED')
+		);
+
 	}
 
 	public function getPrefix()

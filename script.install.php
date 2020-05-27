@@ -26,7 +26,7 @@ class PlgFieldsJtcfImagesInstallerScript extends PlgFieldsJtcfImagesInstallerScr
 	if(!$this->jtfwInstalled())
 		{
             $app = Factory::getApplication();
-			$app->enqueueMessage(JText::_('JT framework required. Please install it before.'), 'error');
+			$app->enqueueMessage(JText::_('JT framework required. Please, <a target="_blank" href="https://jtotal.org">download at jtotal.org</a> and install it before.'), 'error');
 			return false;
 		}
 	}

@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <extension type="plugin" version="3.7.0" group="fields" method="upgrade">
 	<name>Fields - JT images</name>
-	<creationDate>26-may-2020</creationDate>
+	<creationDate>27-may-2020</creationDate>
 	<author>jtotal</author>
 	<authorEmail>support@jtotal.org</authorEmail>
 	<authorUrl>https://jtotal.org</authorUrl>
 	<copyright>Copyright © 2020 - All rights reserved.</copyright>
 	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
-	<version>1.0.15</version>
+	<version>1.0.32</version>
 	<description><![CDATA[ JT CustomFields | Images 
-	<a class="jtversion badge badge-info">1.0.15</a>
+	<a class="jtversion badge badge-info">1.0.32</a>
 	]]></description>
     <scriptfile>script.install.php</scriptfile>
 	<files>
@@ -36,6 +36,6 @@
 		</fields>
 	</config>
     <updateservers>
-        <server type="extension" priority="1" name="jt_cf_images">https://users.jtotal.org/SOFT/UPDATES/PLUGINS/CF/jt_cf_images-update.xml</server>
+        <server type="extension" priority="1" name="jtcfimages">https://users.jtotal.org/SOFT/UPDATES/PLUGINS/CF/jt_cf_images-update.xml</server>
     </updateservers>
 </extension>
