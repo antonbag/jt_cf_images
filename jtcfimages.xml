@@ -7,9 +7,9 @@
 	<authorUrl>https://jtotal.org</authorUrl>
 	<copyright>Copyright © 2020 - All rights reserved.</copyright>
 	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
-	<version>1.0.35</version>
+	<version>1.0.40</version>
 	<description><![CDATA[ JT CustomFields | Images 
-	<a class="jtversion badge badge-info">1.0.35</a>
+	<a class="jtversion badge badge-info">1.0.40</a>
 	]]></description>
     <scriptfile>script.install.php</scriptfile>
 	<files>
@@ -36,6 +36,6 @@
 		</fields>
 	</config>
     <updateservers>
-        <server type="extension" priority="1" name="jtcfimages">https://users.jtotal.org/SOFT/UPDATES/PLUGINS/CF/jt_cf_images-update.xml</server>
+        <server type="extension" priority="1" name="Fields - JT images">https://users.jtotal.org/SOFT/UPDATES/PLUGINS/CF/jtcfimages-update.xml</server>
     </updateservers>
 </extension>

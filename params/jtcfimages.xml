@@ -55,7 +55,7 @@
 				default="img-thumbnail"
 			/>
 
-						<field name="jtlicense" 
+			<field name="jtlicense" 
 				type="jtlicensecheck" 
 				default="" 
 				class="switcher switcher-success btn-group" 

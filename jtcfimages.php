@@ -1,7 +1,7 @@
 <?php
 /**
  *
- * @copyright   Copyright (C) 2011 - 2020 JTotal, Inc. All rights reserved.
+ * @copyright   Copyright (C) 2015- 2020 JTotal, Inc. All rights reserved.
  * @license     GNU General Public License version 2 or later; see LICENSE.txt
  */
 
@@ -66,7 +66,7 @@ class PlgFieldsJTCFimages extends FieldsPlugin
 	
 
 		$mode = $field->fieldparams->get('jt_cf_images_mode','image');
-		$formFile = JPath::clean(JPATH_SITE.'/plugins/fields/jt_cf_images/params/jt_cf_images_'.$mode.'.xml');
+		$formFile = JPath::clean(JPATH_SITE.'/plugins/fields/jtcfimages/params/jt_cf_images_'.$mode.'.xml');
 
 		if (file_exists($formFile))
 		{
@@ -117,7 +117,7 @@ class PlgFieldsJTCFimages extends FieldsPlugin
 	public function onContentBeforeSave($context, $item, $isNew, $data = array())
 	{
 
-		if ($context != 'com_fields.field' || !isset($item->type) || $item->type != 'jt_cf_images')
+		if ($context != 'com_fields.field' || !isset($item->type) || $item->type != 'jtcfimages')
 		{
 			return true;
 		}
@@ -126,7 +126,7 @@ class PlgFieldsJTCFimages extends FieldsPlugin
 
 		if(!$valida){
 			$fieldparams = json_decode($item->fieldparams);
-			$fieldparams->jt_cf_images_mode = 'image';
+			$fieldpaarams->jt_cf_images_mode = 'image';
 	
 			$item->set('fieldparams',json_encode($fieldparams));
 		}
